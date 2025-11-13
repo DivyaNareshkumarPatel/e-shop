@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'http://localhost:3000/api', // Base URL for Node/Express Backend
+    baseURL: 'https://e-shop-rlyk.onrender.com/api', // Base URL for Node/Express Backend
     headers: {
         'Content-Type': 'application/json',
     },
